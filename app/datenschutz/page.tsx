@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Datenschutzerklärung",
-  description: `Datenschutzerklärung der ${site.name}: Hosting bei Vercel, keine Cookies, keine Tracking- oder Analysedienste, Ihre Rechte nach der DSGVO.`,
+  description: `Datenschutzerklärung der ${site.name}: Hosting bei Vercel, Kontaktformular über Resend, keine Cookies, keine Tracking- oder Analysedienste, Ihre Rechte nach der DSGVO.`,
   path: "/datenschutz",
 });
 
@@ -80,6 +80,38 @@ export default function DatenschutzPage() {
             rel="noopener noreferrer"
           >
             Datenschutzerklärung von Vercel
+          </a>
+          .
+        </p>
+
+        <h2>Kontaktformular</h2>
+        <p>
+          Wenn Sie uns über das Kontaktformular schreiben, verarbeiten wir die
+          Angaben, die Sie dort machen (Name, E-Mail-Adresse, freiwillig Ihre
+          Telefonnummer und Ihre Nachricht), um Ihre Anfrage zu beantworten.
+          Rechtsgrundlage ist Ihre Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO
+          und – soweit Sie Angaben zu Ihrer Gesundheit machen – Art. 9 Abs. 2
+          lit. a DSGVO; bei Anfragen zu einer Behandlung zusätzlich Art. 6 Abs. 1
+          lit. b DSGVO. Sie können Ihre Einwilligung jederzeit mit Wirkung für
+          die Zukunft widerrufen. Die Angaben werden nicht auf dieser Website
+          gespeichert, sondern direkt als E-Mail an die Praxis weitergeleitet
+          und gelöscht, sobald Ihre Anfrage erledigt ist und keine gesetzlichen
+          Aufbewahrungspflichten bestehen.
+        </p>
+        <p>
+          Für den Versand der Formular-Nachrichten wird der E-Mail-Dienst Resend
+          (Resend, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA)
+          genutzt. Resend verarbeitet die Formulardaten sowie technische Daten
+          wie IP-Adresse und Zeitpunkt des Versands ausschließlich, um die
+          Nachricht zuzustellen. Dabei können Daten in die USA übermittelt
+          werden; die Übermittlung erfolgt auf Grundlage der
+          Standardvertragsklauseln der EU-Kommission. Weitere Informationen:{" "}
+          <a
+            href="https://resend.com/legal/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Datenschutzerklärung von Resend
           </a>
           .
         </p>

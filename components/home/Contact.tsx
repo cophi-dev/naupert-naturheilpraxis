@@ -1,4 +1,5 @@
 import { site } from "@/lib/site";
+import { ContactForm } from "../ContactForm";
 import { PhoneIcon } from "../icons";
 import { Section } from "../Section";
 
@@ -76,6 +77,18 @@ export function Contact() {
           </div>
         ))}
       </dl>
+
+      <div id="nachricht" className="mt-12 scroll-mt-20 rounded-2xl bg-paper p-6 text-ink sm:p-8 md:p-10">
+        <h3 className="text-[24px] leading-tight font-semibold tracking-[-0.02em] md:text-[28px]">
+          Nachricht schreiben
+        </h3>
+        <p className="mt-1.5 text-[16px] text-muted">
+          Ich antworte per E-Mail oder rufe Sie zurück.
+        </p>
+        <div className="mt-7">
+          <ContactForm />
+        </div>
+      </div>
     </Section>
   );
 }

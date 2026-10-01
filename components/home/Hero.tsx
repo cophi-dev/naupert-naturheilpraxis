@@ -6,7 +6,7 @@ import portrait from "@/public/images/reinhard-naupert.jpg";
 export function Hero() {
   return (
     <section aria-labelledby="hero-titel" className="overflow-hidden">
-      <div className="mx-auto grid max-w-6xl gap-x-8 px-5 pt-7 pb-12 md:grid-cols-12 md:px-8 md:pt-20 md:pb-24">
+      <div className="mx-auto grid max-w-6xl gap-x-8 px-5 pt-7 pb-12 md:grid-cols-12 md:px-8 md:pt-14 md:pb-24">
         <div className="fade-up md:col-span-7">
           <p className="text-[12.5px] font-medium tracking-[0.14em] text-accent uppercase md:text-[13px]">
             Hamburg-{site.district} · seit {site.founded}
@@ -14,7 +14,7 @@ export function Hero() {
 
           <h1
             id="hero-titel"
-            className="mt-4 text-[44px] leading-[0.98] font-semibold tracking-[-0.04em] text-balance md:mt-6 md:text-[76px]"
+            className="mt-4 text-[44px] leading-[0.98] font-semibold tracking-[-0.04em] text-balance md:mt-5 md:text-[72px]"
           >
             {site.name}
           </h1>
@@ -42,7 +42,7 @@ export function Hero() {
             {offerSummary}
           </p>
 
-          <div className="mt-7 border-t-2 border-ink pt-5 md:mt-10 md:max-w-xl md:pt-6">
+          <div className="mt-7 border-t-2 border-ink pt-5 md:mt-8 md:max-w-xl md:pt-6">
             <p className="text-[17px] font-semibold md:text-[18px]">
               Termine nach Vereinbarung
             </p>
@@ -75,7 +75,7 @@ export function Hero() {
             </p>
           </div>
 
-          <p className="mt-6 text-[15px] leading-relaxed text-ink-soft md:mt-8 md:text-[16px]">
+          <p className="mt-6 text-[16px] leading-relaxed text-ink md:mt-7">
             {site.address.street} ({site.address.floor})
             <br />
             {site.address.postalCode} {site.address.city}-{site.district}
@@ -86,7 +86,7 @@ export function Hero() {
           </p>
         </div>
 
-        <figure className="fade-up fade-up-delay hidden md:col-span-5 md:block md:pl-6">
+        <figure className="hidden md:col-span-5 md:block md:pl-6">
           <Image
             src={portrait}
             alt={`${site.owner}, ${site.profession}, im Porträt`}

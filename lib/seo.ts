@@ -16,6 +16,12 @@ export function pageMetadata({
   absoluteTitle = false,
 }: PageMetaInput): Metadata {
   const fullTitle = absoluteTitle ? title : `${title} | ${site.name}`;
+  const image = {
+    url: "/opengraph-image",
+    width: 1200,
+    height: 630,
+    alt: `${site.name} – ${site.owner}, ${site.profession} in Hamburg-${site.district}`,
+  };
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,
@@ -27,11 +33,13 @@ export function pageMetadata({
       url: path,
       title: fullTitle,
       description,
+      images: [image],
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
+      images: [image],
     },
   };
 }

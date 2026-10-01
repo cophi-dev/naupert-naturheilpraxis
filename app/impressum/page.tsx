@@ -48,7 +48,7 @@ export default function ImpressumPage() {
         <h3>Zuständige Aufsichtsbehörde</h3>
         <p>
           Das Gesundheitsamt Hamburg-Nord ist die zuständige Behörde für die
-          Praxis Bilser Straße 9.
+          Praxis Bilser Straße&nbsp;9.
         </p>
         <p>
           Gesundheits- und Umweltamt Hamburg-Nord

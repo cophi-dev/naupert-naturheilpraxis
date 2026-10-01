@@ -68,4 +68,4 @@ export type Site = typeof site;
 export const offerSummary =
   "Naturheilverfahren, Diagnostik und Beratung – mit Schwerpunkt auf Augen- und Hals-Nasen-Ohren-Erkrankungen.";
 
-export const homeDescription = `${site.owner}, ${site.profession} in Hamburg-${site.district} seit ${site.founded}: ${offerSummary.replace(" – mit", ", mit")} Termine nach Vereinbarung unter ${site.phone.display}, Hausbesuche möglich.`;
+export const homeDescription = `${site.profession} ${site.owner} in Hamburg-${site.district}: Naturheilverfahren, Diagnostik und Beratung, Schwerpunkt Augen- und HNO-Erkrankungen. Termine nach Vereinbarung: ${site.phone.display}.`;

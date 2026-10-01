@@ -48,7 +48,7 @@ export const site = siteSchema.parse({
     href: "tel:+491793904301",
     e164: "+49 179 3904301",
   },
-  email: "praxis@naupert.de",
+  email: "praxis.naupert@web.de",
   address: {
     street: "Bilser Straße 9",
     floor: "1. Etage",
